@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F222411F2162D2DD00837988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222411E2162D2DC00837988 /* AppDelegate.swift */; };
-		F22241212162D2DE00837988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22241202162D2DE00837988 /* ViewController.swift */; };
+		F22241212162D2DE00837988 /* LoginAndRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22241202162D2DE00837988 /* LoginAndRegister.swift */; };
 		F22241242162D2ED00837988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22241222162D2E800837988 /* Main.storyboard */; };
 		F22241262162D40700837988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22241252162D40700837988 /* Assets.xcassets */; };
 		F22241292162D40A00837988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22241272162D40A00837988 /* LaunchScreen.storyboard */; };
 		F22241342162D41800837988 /* testtaskoctoberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22241332162D41800837988 /* testtaskoctoberTests.swift */; };
 		F222413F2162D42000837988 /* testtaskoctoberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222413E2162D42000837988 /* testtaskoctoberUITests.swift */; };
+		F23673002163401E008DD63B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23672FF2163401E008DD63B /* GoogleService-Info.plist */; };
+		F2C887322163A0DB00205EB0 /* GetWeatherByLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C887312163A0DB00205EB0 /* GetWeatherByLocation.swift */; };
+		F2C887372163A5D500205EB0 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C887362163A5D500205EB0 /* WeatherDataModel.swift */; };
+		F2C887392163B19600205EB0 /* dataViewerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C887382163B19600205EB0 /* dataViewerTableViewController.swift */; };
+		F2C8873B2163B7FF00205EB0 /* exelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8873A2163B7FF00205EB0 /* exelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		F222411B2162D2D200837988 /* testtaskoctober.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtaskoctober.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F222411E2162D2DC00837988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F22241202162D2DE00837988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F22241202162D2DE00837988 /* LoginAndRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndRegister.swift; sourceTree = "<group>"; };
 		F22241232162D2ED00837988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F22241252162D40700837988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22241282162D40A00837988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		F222413A2162D41A00837988 /* testtaskoctoberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testtaskoctoberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F222413E2162D42000837988 /* testtaskoctoberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testtaskoctoberUITests.swift; sourceTree = "<group>"; };
 		F22241402162D42200837988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23672FF2163401E008DD63B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2C887312163A0DB00205EB0 /* GetWeatherByLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GetWeatherByLocation.swift; path = testtaskoctober/Controller/GetWeatherByLocation.swift; sourceTree = SOURCE_ROOT; };
+		F2C887362163A5D500205EB0 /* WeatherDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		F2C887382163B19600205EB0 /* dataViewerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewerTableViewController.swift; sourceTree = "<group>"; };
+		F2C8873A2163B7FF00205EB0 /* exelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,11 @@
 		F222411D2162D2D300837988 /* testtaskoctober */ = {
 			isa = PBXGroup;
 			children = (
-				F222411E2162D2DC00837988 /* AppDelegate.swift */,
-				F22241202162D2DE00837988 /* ViewController.swift */,
-				F22241222162D2E800837988 /* Main.storyboard */,
-				F22241252162D40700837988 /* Assets.xcassets */,
-				F22241272162D40A00837988 /* LaunchScreen.storyboard */,
+				F2C887352163A5AD00205EB0 /* model */,
+				F2C887302163700200205EB0 /* Controller */,
+				F2C8872F21636FDC00205EB0 /* View */,
 				F222412A2162D40A00837988 /* Info.plist */,
+				F23672FF2163401E008DD63B /* GoogleService-Info.plist */,
 			);
 			path = testtaskoctober;
 			sourceTree = "<group>";
@@ -123,6 +132,36 @@
 				F22241402162D42200837988 /* Info.plist */,
 			);
 			path = testtaskoctoberUITests;
+			sourceTree = "<group>";
+		};
+		F2C8872F21636FDC00205EB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F22241272162D40A00837988 /* LaunchScreen.storyboard */,
+				F22241222162D2E800837988 /* Main.storyboard */,
+				F22241252162D40700837988 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2C887302163700200205EB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F222411E2162D2DC00837988 /* AppDelegate.swift */,
+				F2C887382163B19600205EB0 /* dataViewerTableViewController.swift */,
+				F22241202162D2DE00837988 /* LoginAndRegister.swift */,
+				F2C887312163A0DB00205EB0 /* GetWeatherByLocation.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2C887352163A5AD00205EB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2C8873A2163B7FF00205EB0 /* exelTest.swift */,
+				F2C887362163A5D500205EB0 /* WeatherDataModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22241292162D40A00837988 /* LaunchScreen.storyboard in Resources */,
+				F23673002163401E008DD63B /* GoogleService-Info.plist in Resources */,
 				F22241262162D40700837988 /* Assets.xcassets in Resources */,
 				F22241242162D2ED00837988 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22241212162D2DE00837988 /* ViewController.swift in Sources */,
+				F2C887372163A5D500205EB0 /* WeatherDataModel.swift in Sources */,
+				F2C887392163B19600205EB0 /* dataViewerTableViewController.swift in Sources */,
+				F22241212162D2DE00837988 /* LoginAndRegister.swift in Sources */,
+				F2C887322163A0DB00205EB0 /* GetWeatherByLocation.swift in Sources */,
 				F222411F2162D2DD00837988 /* AppDelegate.swift in Sources */,
+				F2C8873B2163B7FF00205EB0 /* exelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
